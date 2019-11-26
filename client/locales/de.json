@@ -129,6 +129,15 @@
         "startButton": "Manuelle Steuerung starten",
         "stopButton": "Manuelle Steuerung beenden"
     },
+        "telegram": {
+        "starttext" : "/start & /help Dieser Hilfetext\n/clean Startet die Reinigung\n/stop Stoppt die aktuelle Aktion\n/home Sendet den Roboter zurück zur Basis\n/status Zeigt den momentanen Status des Roboters\n/shutup schaltet Benachrichtigungen temporär für den laufenden Tag ab\n/talkagain schaltet Benachrichtugungen ein\n/consumablesstatus Zeigt den aktuellen Status der Verbrauchsmaterialien an\n",
+        "passwordnotgiven": "kein Passwort festgelegt",
+        "passwordwrong": "falsches Passwort",
+        "clientauthorized": "Klient autorisiert. Geben Sie /help ein um die Hilfe anzuzeigen",
+        "clientalreadyauthorized": "Klient is bereits ausorisiert. Geben Sie /help ein um die Hilfe anzuzeigen",
+        "notauthenticated": "Klient nicht autorisiert geben Sie /setme **password** ein um ein Passwort zu setzten.",
+        "consumables": "Hauptbürste $1 Stunden verbleibend\nSeitenbürste $2 Stunden verbleibend\nFilter $3 Stunden verbleibend\nSensoren $4 Stunden verbleibend"
+    },
     "settings": {
         "title": "Einstellungen",
         "infoTitle": "Informationen",
@@ -350,6 +359,18 @@
              "hint": "Hinweis",
              "hintText": "Es kann jederzeit zum integrierten WLAN-Hotspot zurückgekehrt werden, indem der Reset-Knopf unter dem Deckel betätigt wird.",
              "appliedOK": "Neue WLAN-Anmeldeinformationen wurden erfolgreich angewandt. Nach dem Drücken auf OK wird die Seite aktualisiert. Sie müssen voraussichtlich die Adresse  auf die neue IP des Roboters ändern, da der Roboter versucht, eine Verbindung zum neuen WLAN herzustellen. (ggf. anderer DHCP Bereich, Routereinstellungen prüfen)"
+        },
+        "telegram": {
+            "helptext": "Erstellen Sie einen neuen Chat und suchen Sie nach \"Botfather\".\n Erstellen Sie einen neuen Bot mit /newbot.\n Nach der Erstellung kopieren Sie den Token und fügen Sie ihn auf der Seite ein.",
+            "token": "HTTP API Token",
+            "clientpassword": "Telegram Passwort (optional)",
+            "sendconsumables": "Sende eine Information wenn ein Verbrauchsmaterial 0 Stunden erreicht.",
+            "sendconsumablesevery": "Sende bei jedem Reinigungsvorgang eine Nachricht wenn ein Verbrauchsmaterial 0 Stunden erreicht hat.",
+            "status": "Momentaner Telegram Status",
+            "noclient": "Bisher ist noch kein Klient autorisiert.",
+            "confirmDeleteClient": "Soll dieser Klient wirklich gelöscht werden?",
+            "tokenempty": "Kein Telegram Token",
+            "conectedas": "Telegram ist verbunden als $1"
         }
     },
     "robot": {
